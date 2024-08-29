@@ -31,6 +31,10 @@
 @media (max-width: 768px) {
     .hero_area{
         background-image: url(../images/hero-bg_portrait.jpg);
+        height: 100vh;
+        width: 100vw;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .info_section .col-md-3 {
         text-align: center;
